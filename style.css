@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    margin:0 20%;
+}
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.notificationCount{
+    background-color: rgb(27, 27, 130);
+    color: white;
+    border-radius: 20%;
+    font-size: 15px;    
+    padding:1px 5px;
+}
+.markRead{
+    color: rgb(66, 66, 66);
+}
+main{
+    display: flex;
+    align-items: center;
+}
+.card{
+    margin: 5px 0;
+    height: fit-content;
+    background-color: #f6fdfd;
+    width: 60vw;
+    padding:5px 0;
+    border-radius: 2%;
+}
+.card::after{
+    content: "";
+    background-color: red;
+    width: 5px;
+    height: 5px;
+    margin: 9px;
+    border-radius: 50%;
+}
+.readCard{
+    margin: 5px;
+    height: fit-content;
+    width: 60vw;
+    padding:5px 20px;
+    border-radius: 2%;
+}
+.name{
+    font-weight: bold;
+    color: black;
+}
+.highlight{
+    font-weight: 600;
+    color: rgb(66, 66, 66);
+}
+.time{
+    color: gray;
+    font-weight: 400;
+    display: block;
+}
+.privateMessage{
+    color: rgb(66, 66, 66);
+    border: 2px solid gray;
+    width: 30vw;
+    padding: 10px;
+
+}
+.club{
+    color: rgb(27, 27, 130);
+    font-weight: bold;
+}
+img{
+
+    width: 20px;
+    height: 20px;
+}
+
+/* demo css */
+.imgSection img{
+    width: 40px;
+    height: auto;
+}
+.noti{
+    display: flex;
+}
+.infoSect{
+    margin-left: 20px;
+}     
